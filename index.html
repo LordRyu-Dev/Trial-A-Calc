@@ -7,41 +7,74 @@
 		<link href="./styles/style.css" rel="stylesheet" />
 	</head>
 	<body>
-		<div class="keys">
-			<div class="short"></div>
-			<button class="short">H/M/S</button>
-			<button>MC</button>
-			<button>+/-</button>
-			<button>AC</button>
-			<button>C</button>
-			<button>0</button>
-			<div class="short"></div>
-			<button class="short">%</button>
-			<button>MR</button>
-			<button>7</button>
-			<button>4</button>
-			<button>1</button>
-			<button>00</button>
-			<div class="short"></div>
-			<button class="short">→</button>
-			<button>M-</button>
-			<button>8</button>
-			<button>5</button>
-			<button>2</button>
-			<button>.</button>
-			<button class="short">リセット</button>
-			<button class="short">√</button>
-			<button>M+</button>
-			<button>9</button>
-			<button>6</button>
-			<button>3</button>
-			<button>=</button>
-			<button class="short">日数</button>
-			<button class="short">GT</button>
-			<button>÷</button>
-			<button>×</button>
-			<button>-</button>
-			<button class="tall">+</button>
+		<div class="calc">
+			<h1 class="logo">Trial-A-Calc</h1>
+			<div class="panelSpace">
+				<div class="panel">
+					<div class="status">
+						<div class="icon">GT</div>
+						<div class="icon">E</div>
+						<div class="icon">K</div>
+						<div class="icon">税込</div>
+						<div class="icon">税抜</div>
+						<div class="icon">%</div>
+						<div class="icon">検算中</div>
+						<div class="icon">÷</div>
+						<div class="icon">×</div>
+						<div class="icon">M</div>
+						<div class="icon">-</div>
+						<div class="icon">M</div>
+						<div class="icon">+</div>
+					</div>
+					<div class="number"></div>
+				</div>
+			</div>
+			<div class="keys">
+				<div class="keyColumn">
+					<div class="short"></div>
+					<button id="check" class="short">検算</button>
+					<button id="memoryClear">MC</button>
+					<button id="signChange">+/-</button>
+					<button id="clear">C</button>
+					<button id="allClear">AC</button>
+					<button id="zero">0</button>
+				</div>
+				<div class="keyColumn">
+					<div class="short"></div>
+					<button id="percent" class="short">%</button>
+					<button id="memoryRecall">MR</button>
+					<button id="seven">7</button>
+					<button id="four">4</button>
+					<button id="one">1</button>
+					<button id="doubleZero">00</button>
+				</div>
+				<div class="keyColumn">
+					<div class="short"></div>
+					<button id="squareRoot" class="short">√</button>
+					<button id="memoryMinus">M-</button>
+					<button id="eight">8</button>
+					<button id="five">5</button>
+					<button id="two">2</button>
+					<button id="point">.</button>
+				</div>
+				<div class="keyColumn">
+					<button id="tax-ex" class="short">税抜</button>
+					<button id="carryDown" class="short">→</button>
+					<button id="memoryPlus">M+</button>
+					<button id="nine">9</button>
+					<button id="six">6</button>
+					<button id="three">3</button>
+					<button id="equal">=</button>
+				</div>
+				<div class="keyColumn">
+					<button id="tax-in" class="short">税込</button>
+					<button id="grandTotal" class="short">GT</button>
+					<button id="division">÷</button>
+					<button id="multiplication">×</button>
+					<button id="subtraction">-</button>
+					<button id="addition" class="tall">+</button>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
