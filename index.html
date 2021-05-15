@@ -18,62 +18,67 @@
 							<div class="icon">E</div>
 							<div class="icon">K</div>
 							<div class="icon">税込</div>
-							<div class="icon">税抜</div>
-							<div class="icon">%</div>
-							<div class="icon">検算中</div>
+							<div id="tax_exIcon" class="icon">税抜</div>
+							<div id="percentIcon" class="icon">%</div>
+							<div id="checkIcon" class="icon">検算中</div>
 						</div>
 						<div class="number"></div>
 					</div>
-					<div class="PanelRight">
-						<div class="icon">OK</div>
-						<div class="icon"></div>
+					<div class="panelRight">
+						<div id="okIcon" class="iconRight">OK</div>
+						<div id="signIcon" class="iconRight"></div>
 					</div>
 				</div>
 			</div>
+			<div class="halfKeys">
+				<div class="rangeSmall">
+					<input type="range" id="roundingRange" min="0" max="2" step="1" ></input>
+				</div>
+				<div class="rangeLarge">
+				<input type="range" id="digitRange" min="0" max="5" step="1" ></input>
+			</div>
+				<button id="tax_ex" class="shortKey">税抜</button>
+				<button id="tax_in" class="shortKey">税込</button>
+				<button id="check" class="shortKey">検算</button>
+				<button id="percent" class="shortKey">%</button>
+				<button id="squareRoot" class="shortKey">√</button>
+				<button id="carryDown" class="shortKey">→</button>
+				<button id="grandTotal" class="shortKey">GT</button>
+			</div>
 			<div class="keys">
 				<div class="keyColumn">
-					<div class="short"></div>
-					<button id="check" class="short">検算</button>
-					<button id="memoryClear">MC</button>
-					<button id="signChange">+/-</button>
-					<button id="clear">C</button>
-					<button id="allClear">AC</button>
-					<button id="zero">0</button>
+					<button id="memoryClear" class="key">MC</button>
+					<button id="signChange" class="key">+/-</button>
+					<button id="clear" class="key">C</button>
+					<button id="allClear" class="key">AC</button>
+					<button id="zero" class="key">0</button>
 				</div>
 				<div class="keyColumn">
-					<div class="short"></div>
-					<button id="percent" class="short">%</button>
-					<button id="memoryRecall">MR</button>
-					<button id="seven">7</button>
-					<button id="four">4</button>
-					<button id="one">1</button>
-					<button id="doubleZero">00</button>
+					<button id="memoryRecall" class="key">MR</button>
+					<button id="seven" class="key">7</button>
+					<button id="four" class="key">4</button>
+					<button id="one" class="key">1</button>
+					<button id="doubleZero" class="key">00</button>
 				</div>
 				<div class="keyColumn">
-					<div class="short"></div>
-					<button id="squareRoot" class="short">√</button>
-					<button id="memoryMinus">M-</button>
-					<button id="eight">8</button>
-					<button id="five">5</button>
-					<button id="two">2</button>
-					<button id="point">.</button>
+					<button id="memoryMinus" class="key">M-</button>
+					<button id="eight" class="key">8</button>
+					<button id="five" class="key">5</button>
+					<button id="two" class="key">2</button>
+					<button id="point" class="key">.</button>
 				</div>
 				<div class="keyColumn">
-					<button id="tax-ex" class="short">税抜</button>
-					<button id="carryDown" class="short">→</button>
-					<button id="memoryPlus">M+</button>
-					<button id="nine">9</button>
-					<button id="six">6</button>
-					<button id="three">3</button>
-					<button id="equal">=</button>
+					<button id="memoryPlus" class="key">M+</button>
+					<button id="nine" class="key">9</button>
+					<button id="six" class="key">6</button>
+					<button id="three" class="key">3</button>
+					<button id="equal" class="key">=</button>
 				</div>
 				<div class="keyColumn">
-					<button id="tax-in" class="short">税込</button>
-					<button id="grandTotal" class="short">GT</button>
-					<button id="division">÷</button>
-					<button id="multiplication">×</button>
-					<button id="subtraction">-</button>
-					<button id="addition" class="tall">+</button>
+					<button id="division" class="key">÷</button>
+					<button id="multiplication" class="key">×</button>
+					<button id="subtraction" class="key">-</button>
+					<button id="addition" class="tallKey">+</button>
 				</div>
 			</div>
 		</div>
