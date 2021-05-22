@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-      <div class="halfKeys">
+      <div class="halfKeys" id="top0">
         <div class="smallSpace">
           <p>&thinsp;<span class="cha1">F</span>&ensp;<span class="cha3">CUT</span>&ensp;<span class="cha3">5/4</span></p>
           <input type="range" id="roundSelect" min="0" max="2" step="1" />
@@ -42,44 +42,44 @@
           </p>
           <input type="range" id="pointSelect" min="0" max="5" step="1" />
         </div>
-        <button id="tax_ex" class="shortKey">税抜</button>
-        <button id="tax_in" class="shortKey">税込</button>
-        <button id="check" class="shortKey">検算</button>
-        <button id="percent" class="shortKey">%</button>
-        <button id="squareRoot" class="shortKey">√</button>
-        <button id="carryDown" class="shortKey">→</button>
-        <button id="grandTotal" class="shortKey">GT</button>
+        <button id="tax_ex" onclick="pushButton(this)">税抜</button>
+        <button id="tax_in">税込</button>
+        <button id="check">検算</button>
+        <button id="percent">%</button>
+        <button id="squareRoot">√</button>
+        <button id="carryDown">→</button>
+        <button id="grandTotal">GT</button>
       </div>
       <div class="keys">
-        <div class="keyColumn">
+        <div class="keyColumn" id="column1">
           <button id="memoryClear" class="key">MC</button>
           <button id="signChange" class="key">+/-</button>
           <button id="clear" class="key">C</button>
           <button id="allClear" class="key">AC</button>
           <button id="zero" class="key">0</button>
         </div>
-        <div class="keyColumn">
+        <div class="keyColumn" id="column2">
           <button id="memoryRecall" class="key">MR</button>
           <button id="seven" class="key">7</button>
           <button id="four" class="key">4</button>
           <button id="one" class="key">1</button>
           <button id="doubleZero" class="key">00</button>
         </div>
-        <div class="keyColumn">
+        <div class="keyColumn" id="column3">
           <button id="memoryMinus" class="key">M-</button>
           <button id="eight" class="key">8</button>
           <button id="five" class="key">5</button>
           <button id="two" class="key">2</button>
           <button id="point" class="key">.</button>
         </div>
-        <div class="keyColumn">
+        <div class="keyColumn" id="column4">
           <button id="memoryPlus" class="key">M+</button>
           <button id="nine" class="key">9</button>
           <button id="six" class="key">6</button>
           <button id="three" class="key">3</button>
           <button id="equal" class="key">=</button>
         </div>
-        <div class="keyColumn">
+        <div class="keyColumn" id="column5">
           <button id="division" class="key">÷</button>
           <button id="multiplication" class="key">×</button>
           <button id="subtraction" class="key">-</button>

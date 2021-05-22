@@ -24,13 +24,12 @@ h1.logo {
   font-size: 2.5rem;
 }
 
-div.keys {
+div.halfKeys {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: center;
   width: 25rem;
-  height: 20rem;
+  height: 5rem;
 }
 
 div.keyColumn {
@@ -40,29 +39,33 @@ div.keyColumn {
   height: 20rem;
 }
 
-div.halfKeys {
+div.keys {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: center;
   width: 25rem;
-  height: 5rem;
+  height: 20rem;
 }
-
-.keys button {
+.keyColumn button {
   appearance: none;
   width: 4.8rem;
   height: 3.8rem;
   margin: 0.1rem;
   border: solid black 0.1rem;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
-div.shortKey,
-button.shortKey {
+div.halfKeys button {
   width: 4.8rem;
   height: 2.3rem;
   margin: 0.1rem 0.1rem;
   border: solid black 0.1rem;
+  font-size: 1.3rem;
+}
+
+#addition {
+  height: 7.8rem;
 }
 
 .smallSpace {
@@ -117,9 +120,6 @@ span.cha3 {
 
 span.cha4 {
   font-size: 0.4rem;
-}
-button.tallKey {
-  height: 7.8rem;
 }
 
 .panelSpace {
