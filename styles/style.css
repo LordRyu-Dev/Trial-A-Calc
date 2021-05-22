@@ -71,11 +71,17 @@ button.shortKey {
   margin: 0.1rem 0.1rem;
 }
 
+.smallSpace p {
+  width: 3.8rem;
+  height: 1rem;
+  margin: 0.2rem 0.5rem 0;
+}
+
 #roundSelect {
   display: inline-block;
   width: 3.8rem;
   height: 0.5rem;
-  margin: 0 0.9rem 0.2rem;
+  margin: 0.2rem 0.5rem 0.4rem;
   border: solid 1px black;
   border-radius: 0.4rem;
 }
@@ -86,15 +92,32 @@ button.shortKey {
   margin: 0.1rem 0.1rem;
 }
 
+.largeSpace p {
+  width: 6.8rem;
+  height: 1rem;
+  margin: 0.2rem 1.4rem 0 1.6rem;
+}
+
 #pointSelect {
   display: inline-block;
-  width: 5.8rem;
+  width: 6rem;
   height: 0.5rem;
-  margin: 0 0.9rem 0.2rem;
+  margin: 0 1.9rem 0.2rem;
   border: solid 1px black;
   border-radius: 0.4rem;
 }
 
+span.cha1 {
+  font-size: 0.7rem;
+}
+
+span.cha3 {
+  font-size: 0.5rem;
+}
+
+span.cha4 {
+  font-size: 0.4rem;
+}
 button.tallKey {
   height: 7.8rem;
 }
